@@ -1,0 +1,12 @@
+1. Return policies/ users/ roles which have access level "*" (3 API functions)
+
+    Policies - 
+        1. Inline
+        2. customer manage
+        3. AWS manager (Skip as it is managed by AWS)
+
+2. Check for user who have different kinds of access. eq - adminstration, power user etc (input by user)
+
+3. Policies attached to user or roles, find resource section which has * (not aws:: / only *)
+
+Roles - check for customer managed only
